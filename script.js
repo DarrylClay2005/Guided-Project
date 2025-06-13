@@ -42,3 +42,9 @@ document.addEventListener('DOMContentLoaded', () => {
         displayIdeas(ideas);
     });
 });
+const ideasSection = document.getElementById('ideas-section');
+const ideasContainer = document.getElementById('ideas-container');
+if (ideasSection && ideasContainer) {
+    ideasSection.style.textAlign = 'center';
+    ideasContainer.style.display = 'inline-block';
+}
