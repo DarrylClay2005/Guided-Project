@@ -4,3 +4,5 @@ NOTE TO WHOEVER REVIEWS THIS CODE: Visual Code Studio is not committing changes 
 A Hour Later It's working but Is there any reason that visual code just sometimes chooses not to commit my changes?
 
 To whoever is grading this if you could shed some light on this problem i would be grateful for your assistance.
+
+Also I might just not be reading correctly but instructions are unclear to me if I have to make the ideas display on the page or just in the console log
