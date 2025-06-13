@@ -55,3 +55,4 @@ const possibleIdeas = [
 // Generate 5 random ideas
 const randomIdeas = getRandomIdeas(possibleIdeas, 5);
 console.log("Randomly generated ideas:", randomIdeas);
+
