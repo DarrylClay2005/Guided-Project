@@ -1,6 +1,20 @@
 // script.js
 /* Store randomly generated idea data in the ideas array below */
 // Generate random idea data
+
+document.addEventListener('DOMContentLoaded', () => {
+    const ctaBtn = document.getElementById('show-ideas-btn');
+    if (ctaBtn) {
+        ctaBtn.addEventListener('click', () => {
+            const randomIndex = Math.floor(Math.random() * ideas.length);
+            const randomIdea = ideas[randomIndex];
+            const ideaBox = document.getElementById('idea-box');
+            if (ideaBox) {
+                ideaBox.textContent = randomIdea;
+            }
+        });
+    }
+});
 const ideas = [
     "Build a weather app using an API",
     "Create a to-do list with local storage",
