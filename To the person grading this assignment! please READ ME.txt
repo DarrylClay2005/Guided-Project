@@ -1,0 +1,6 @@
+NOTE TO WHOEVER REVIEWS THIS CODE: Visual Code Studio is not committing changes to the commits on github! I don't know why! Please ignore the commit history!
+
+
+A Hour Later It's working but Is there any reason that visual code just sometimes chooses not to commit my changes?
+
+To whoever is grading this if you could shed some light on this problem i would be grateful for your assistance.
